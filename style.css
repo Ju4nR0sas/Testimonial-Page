@@ -25,3 +25,65 @@ html {
     --background2:#FAFAF9;
     --background-cards:#FFFFFF;
 }
+
+.background {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr 2fr;
+    grid-template-rows: 1fr;
+    place-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--background2);
+}
+
+.reviews {
+    order: 2;
+    display: flex;
+    flex-direction: column;
+}
+
+.section_reviews-logo {
+    margin: 1rem;
+    margin-bottom: 0.8;
+}
+
+.section_reviews-logo img {
+    width: 4rem;
+    padding: 0.34rem;
+    background-color: #fff6a7;
+    border-radius: 50% ;
+    box-shadow: 0 0 20px 5px rgba(255, 230, 0, 0.7);
+}
+
+.section_reviews-text {
+    margin-left: 1rem;
+}
+
+.section_reviews-text h1 {
+    font-size: var(--heading);
+    margin-bottom: 1rem;
+}
+
+.section_reviews-text p {
+    line-height: 3rem;
+    font-size: var(--body);
+    color: var(--texts);
+    margin-bottom: 3rem;
+}
+
+.section_reviews-list {
+    font-size: var(--list_item);
+    color: var(--texts);
+    margin-left: 4rem;
+}
+
+.section_reviews-list ul {
+    list-style: none;
+}
+
+.section_reviews-list ul li {
+    margin-bottom: 1rem;
+    background: url(./Resources/Done_ring_round_fill.svg) no-repeat left center;
+    background-size: 2rem;
+    padding-left: 3rem;
+}
