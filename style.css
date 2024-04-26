@@ -5,5 +5,23 @@
 }
 
 html {
+    font-family: "Sora", sans-serif;
     font-size: 62.5%;
+}
+
+:root {
+    /* Font Sizes */
+    --heading: 3.6rem;
+    --body: 2rem;
+    --body2: 1.6rem;
+    --list_item: 1.4rem;
+
+    /* Colors */
+    --yellow:#F5C044; 
+    --green:#4CA154;
+    --titles:#18181B;
+    --texts:#52525A;
+    --background:#D4D4D8;
+    --background2:#FAFAF9;
+    --background-cards:#FFFFFF;
 }
