@@ -27,24 +27,23 @@ html {
 }
 
 body {
+    overflow-x: hidden;
     background-color: var(--background2);
 }
 
 .background {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr;
+    grid-template-rows: 1fr 1fr;
     place-items: center;
     width: 100vw;
-    height: 100vh;
+    height: 100%;
 }
 
 /* Section Left */
 .reviews {
-    order: 1;
     margin: 5rem;
     width: 70rem;
-    height: 50rem;
+    height: 40rem;
     display: flex;
     flex-direction: column;
 }
@@ -97,7 +96,6 @@ body {
 
 /* Section Right */
 .cards {
-    order: 2;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
